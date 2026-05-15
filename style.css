@@ -1,0 +1,78 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #111;
+    color: #eee;
+}
+
+.hero {
+    text-align: center;
+    padding: 40px;
+    background: linear-gradient(#000, #222);
+}
+
+.logo {
+    width: 150px;
+}
+
+.titulo {
+    font-size: 3rem;
+    margin: 10px 0;
+}
+
+.subtitulo {
+    font-size: 1.2rem;
+    color: #ccc;
+}
+
+.banner {
+    width: 90%;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
+.seccion {
+    padding: 40px;
+    max-width: 900px;
+    margin: auto;
+}
+
+h2 {
+    color: #00d4ff;
+}
+
+.personajes-grid {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.personaje {
+    width: 45%;
+    background: #222;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.personaje img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.boton {
+    display: inline-block;
+    padding: 12px 20px;
+    background: #00d4ff;
+    color: #000;
+    text-decoration: none;
+    border-radius: 8px;
+    font-weight: bold;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #000;
+    margin-top: 40px;
+}
